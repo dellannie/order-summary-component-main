@@ -1,0 +1,147 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+html {
+	font-family: 'Red Hat Display', sans-serif;
+}
+
+body {
+	background-image: url(/images/pattern-background-desktop.svg);
+	background-repeat: no-repeat;
+	background-size: 100%;
+	background-color:  hsl(225, 100%, 94%);
+}
+
+.attribution { 
+	font-size: 11px; 
+	text-align: center; 
+}
+
+.attribution a { 
+	color: hsl(228, 45%, 44%); 
+}
+
+.main-container {
+	display: flex;
+	flex-direction: column;
+	border: 1px solid hsl(225, 100%, 94%); 
+	background-color: white;
+	width: 400px;
+	height: auto;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	border-radius: 20px;
+}
+
+.hero-img {
+	width: 100%;
+	overflow: hidden;
+	border-radius: 20px 20px 0 0;
+}
+
+
+h1 {
+	text-align: center;
+	margin-top: 25px;
+	padding: 10px;
+}
+
+/* intro quote section */
+
+.intro-quote {
+	text-align: center;
+	line-height: 20px;
+	margin-bottom: 10px;
+	padding: 20px;
+	color: hsl(224, 23%, 55%);
+}
+
+/* pricing section */
+.pricing {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	padding: 10px;
+	margin: 20px;
+	/* border: 1px solid blue; */
+	border-radius: 10px;
+	background-color: hsl(225, 100%, 98%);
+}
+
+.cost-section {
+	display: flex;
+}
+
+.music-logo {
+	margin-right: 10px;
+}
+
+.annual {
+	font-weight: 900;
+}
+
+.cost {
+	color: hsl(224, 23%, 55%);
+}
+
+.change { /* color for the change plan */
+	color: hsl(245, 75%, 52%);
+	text-decoration: underline;
+}
+
+.change:hover {
+	text-decoration: none;
+	opacity: 0.71;
+	cursor: pointer;
+}
+
+/* button */
+
+button {
+	background-color: hsl(245, 75%, 52%);
+	color: white;
+	padding: 20px;
+	margin: 5px 30px 5px 30px;
+	border-radius: 15px;
+	cursor: pointer;
+	font-weight: 700;
+	box-shadow: -2px 8px 20px 0px rgba(114, 128, 167,0.81)
+}
+
+button:hover {
+	box-shadow: -2px 8px 20px 0px rgba(114, 128, 167,0.81);
+	opacity: 0.71;
+}
+
+.order-cancel {
+	text-align: center;
+	margin: 15px 0 30px 0;
+	opacity: 0.41;
+}
+
+.order-cancel:hover {
+	cursor: pointer;
+	opacity: 1;
+}
+
+
+@media (max-width: 375px) {
+	.main-container {
+		display: flex;
+		flex-direction: column;
+		border: 1px solid hsl(225, 100%, 94%); 
+		background-color: white;
+		width: 300px;
+		height: auto;
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		transform: translate(-50%, -50%);
+		border-radius: 20px;
+	}
+	
+}
