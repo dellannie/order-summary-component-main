@@ -25,9 +25,8 @@ Users should be able to:
 
 ### Screenshot
 
-![](./finished-active.jpg)
-![](./Finished-desktop-screenshot.jpg)
-![](./finished-mobile-screenshot.jpg)
+![](./design/Finished-desktop-screenshot.jpg)
+
 
 
 ## My process
